@@ -3,7 +3,7 @@ A loss function measures how good our predictions are,
 we can use this to adjust the parameters of our network
 """
 import numpy as np
-from .tensor import Tensor
+from tensor import Tensor
 
 
 class Loss:

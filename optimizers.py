@@ -17,5 +17,5 @@ class SGD(Optimizer):
         self.lr = lr
 
     def step(self, net: NeuralNet) -> None:
-        for param, grad in net.params_and_grams():
+        for param, grad in net.params_and_grads():
             param -= self.lr * grad
